@@ -1,0 +1,6 @@
+.idea
+*/migrations
+*.pyc
+static_media
+media
+venv
