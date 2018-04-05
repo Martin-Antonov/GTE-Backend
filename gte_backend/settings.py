@@ -90,28 +90,28 @@ WSGI_APPLICATION = 'gte_backend.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 # Local database
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'gte_db',
-        'USER': 'fractal',
-        'PASSWORD': '159fractalgames',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
-
-# Production Database
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'gte',
-#         'USER': 'root',
+#         'NAME': 'gte_db',
+#         'USER': 'fractal',
 #         'PASSWORD': '159fractalgames',
 #         'HOST': 'localhost',
-#         'PORT': '5432',
+#         'PORT': '',
 #     }
 # }
+
+# Production Database
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'gte',
+        'USER': 'root',
+        'PASSWORD': '159fractalgames',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
 
 
 # Password validation
