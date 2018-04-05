@@ -1,0 +1,49 @@
+[
+{
+  "model": "general_information.generalinformation",
+  "pk": 1,
+  "fields": {
+    "home_title": "WELCOME TO GTE",
+    "home_information": "<p>Welcome to the homepage for Game Theory Explorer &beta;, which is a software tool to create and analyze games as models of strategic interaction. An extensive or strategic-form game can be created and nicely displayed with a graphical user interface in a web browser. State-of-the-art algorithms then compute one or all Nash equilibria of the game.&lt;br&gt; Note that this is a &beta; (&ldquo;beta&rdquo;) software version still under development, so please be patient with misbehaviour and bugs.</p>",
+    "home_video_file": "2018-02-27-1532-16_mmxmEnX.mp4",
+    "docs_title": "DOCUMENTATION",
+    "docs_information": "<p>Instead of using Flash, GTE has been completely rewritten with &lt;a href=&#39;https://phaser.io/&#39;&gt;Phaser&lt;/a&gt; - a 2D game engine. The current version of Phaser is 2.6.2, but can be updated to 3.x in the near future. &lt;br&gt; The software incorporates the MVC architecture and thus the documentation on the left follows this guideline. &lt;br&gt; The &lt;a href=&#39;https://github.com/Martin-Antonov&#39;&gt;official repository &lt;/a&gt; of GTE includes the GTE software, this website and the backend. &lt;br&gt; The website is written with Angular 5 and the backend service with Django.&lt;br&gt;&lt;br&gt; Please, note that since the software is not completed, this documentation is under development.</p>",
+    "about_GTE_title": "GTE AND GAMBIT",
+    "about_GTE_information": "<p>Gambit is the premier software project for quantitative analysis in game theory. The project has a 22-year history of providing open-source tools for students, researchers, and practitioners who use game theory in economics, computer science, political science, and other fields. This academic project is led by professors Theodore Turocy, Rahul Savani, and Bernhard von Stengel.&lt;br&gt;The original 2011 design objective was to provide a browser front-end to the Gambit software suite of game theory algorithms, which we called GTE for &ldquo;Game Theory Explorer&rdquo;. The browser interface makes it user-friendly and avoids installation hassle. That decision was spot-on: As we saw at the 2014 GSoC Reunion, half of the 2014 GSoC projects worked on similar browser front ends as part of their projects.&lt;br&gt;Main problem: our GUI is implemented in Flash which is now discontinued. In addition, the Flash development environment is hard to get installed, has version issues, and provided an increasing barrier to entry for prospective contributors. On the other hand, the GUI itself is much easier to understand than the back-end mathematical algorithms. The GUI projects have been the most successful GSoC student projects (in addition to those that implemented a lot of new Gambit functionality in Python).&lt;br&gt;In 2015, we therefore started on a re-design of GTE in HTML5 and JavaScript. The technical prerequisites are only a browser (with Firebug to debug the JavaScript code) so a student can contribute almost immediately.</p>",
+    "about_contributors_title": "CONTRIBUTORS",
+    "about_publications_title": "PUBLICATIONS"
+  }
+},
+{
+  "model": "general_information.contributor",
+  "pk": 2,
+  "fields": {
+    "general_information_contributor": 1,
+    "text": "Martin Antonov"
+  }
+},
+{
+  "model": "general_information.contributor",
+  "pk": 3,
+  "fields": {
+    "general_information_contributor": 1,
+    "text": "<p><a href=\"http://www.maths.lse.ac.uk/personal/stengel/\">Prof Bernhard von Stengel</a></p>"
+  }
+},
+{
+  "model": "general_information.publication",
+  "pk": 1,
+  "fields": {
+    "general_information_publication": 1,
+    "title": "Game Theory Explorer - Software for the Applied Game Theorist",
+    "text": "<p>Rahul Savani and Bernhard von Stengel (2015), &lt;a href=&#39;http://www.maths.lse.ac.uk/personal/stengel/TEXTE/largeongte.pdf&#39;&gt;Game Theory Explorer &ndash; Software for the Applied Game Theorist &lt;/a&gt;. &lt;em&gt;Computational Management Science 12, 5-33.&lt;/em&gt;</p>"
+  }
+},
+{
+  "model": "general_information.documentation",
+  "pk": 1,
+  "fields": {
+    "docs_json": "Initial.json"
+  }
+}
+]

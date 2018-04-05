@@ -86,6 +86,7 @@ WSGI_APPLICATION = 'gte_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+# Local database
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -97,6 +98,7 @@ WSGI_APPLICATION = 'gte_backend.wsgi.application'
 #     }
 # }
 
+# Production Database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
