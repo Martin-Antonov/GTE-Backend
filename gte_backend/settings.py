@@ -25,7 +25,12 @@ SECRET_KEY = 'j#=9@^p#=z_aldc&b0r%at#)+ht5nu00)^up1k#0uk^&h*!&3k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "test.api.logos.bg",
+    "localhost",
+    "127.0.0.1",
+    "api.gametheoryexplorer.org"
+]
 
 AUTH_USER_MODEL = "users.GTEUser"
 
