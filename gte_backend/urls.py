@@ -27,7 +27,8 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls')),
     url(r'^api/getinfo/', include('general_information.url')),
     url(r'^api/users/', include('users.urls')),
-    url(r'^api/tree/', include('tree.urls'))
+    url(r'^api/tree/', include('tree.urls')),
+    url(r'^api/solve/', include('bimatrix_solver.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

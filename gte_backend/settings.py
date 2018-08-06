@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'tree',
     'users',
-    'customsettings'
+    'customsettings',
+    'bimatrix_solver'
 ]
 
 MIDDLEWARE = [
